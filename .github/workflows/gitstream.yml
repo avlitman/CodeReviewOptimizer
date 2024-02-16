@@ -9,16 +9,16 @@ on:
     inputs:
       client_payload:
         description: The Client payload
-        required: true
+        required: false
       full_repository:
         description: the repository name include the owner in `owner/repo_name` format
-        required: true
+        required: false
       head_ref:
         description: the head sha
-        required: true
+        required: false
       base_ref:
         description: the base ref 
-        required: true
+        required: false
       installation_id:
         description: the installation id
         required: false
